@@ -8,9 +8,16 @@ function theBeatlesPlay(musicians,instruments){
 
 function johnLennonFacts(facts){
  var xtremefacts = []
- i = 0
- while(i < facts.length){
-   xtremefacts[i] = `${facts[i]}!!!`
+ while(xtremefacts.length < facts.length){
+   xtremefacts.push(`${facts[i]}!!!`)
  }
  return xtremefacts
+}
+
+function iLoveTheBeatles(num){
+  var love = []
+  do{
+    love.push("I love the Beatles!")
+    num++
+  }while (num < 15)
 }
